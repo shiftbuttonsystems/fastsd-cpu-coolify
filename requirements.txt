@@ -1,8 +1,7 @@
 torch
 torchvision
 numpy
-openvino-dev[onnx]
 Pillow
-requests
 tqdm
-
+requests
+openvino-dev[onnx]
