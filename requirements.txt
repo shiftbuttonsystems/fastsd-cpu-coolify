@@ -1,1 +1,8 @@
+torch
+torchvision
+numpy
+openvino-dev[onnx]
+Pillow
+requests
+tqdm
 
