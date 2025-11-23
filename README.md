@@ -11,6 +11,7 @@ You want to deploy FastSD CPU with API endpoints accessible externally.
 You have port 8000 reserved for Coolify; we will use 8001 for FastSD CPU.
 
 **Step 1: Create Your Dockerfile**
+
 Create a new project (e.g., fastsd-cpu), a production environment will automatically be created for you and inside it, add a new resource and select the option to use Dockerfile. Past the content of the Dockerfile inside it and save it.
 **Notes on this Dockerfile:**
 
