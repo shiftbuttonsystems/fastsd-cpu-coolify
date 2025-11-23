@@ -1,10 +1,10 @@
-#FastSD CPU Deployment on Coolify
+# FastSD CPU Deployment on Coolify
 
 **Credit:** Developed in collaboration with ChatGPT (OpenAI) for guidance on setup and deployment. If you want details of what FastSD CPU, you can visit Raphesh's repo https://github.com/rupeshs/fastsdcpu.
 
 This guide will help you deploy FastSD CPU, a CPU-based Fast Stable Diffusion server, on the Coolify platform using Docker. By the end of this guide, you'll be able to generate images through API calls and optionally run a web UI.
 
-##Assumptions
+## Assumptions
 You already have a Coolify instance up and running.
 You have basic knowledge of deploying applications via Docker on Coolify.
 You want to deploy FastSD CPU with API endpoints accessible externally.
