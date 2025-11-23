@@ -13,6 +13,7 @@ You have port 8000 reserved for Coolify; we will use 8001 for FastSD CPU.
 **Step 1: Create Your Dockerfile**
 Create a new project (e.g., fastsd-cpu), a production environment will automatically be created for you and inside it, add a new resource and select the option to use Dockerfile. Past the content of the Dockerfile inside it and save it.
 **Notes on this Dockerfile:**
+
 We use **Python 3.10 slim** for lightweight deployment.
 Git is installed because we clone the FastSD CPU repository directly.
 Libraries libgl1 and libglib2.0-0 are required for image processing.
@@ -21,9 +22,11 @@ Port 8001 is used to avoid conflicts with Coolify itself.
 We start FastSD CPU in API mode with --api.
 
 **Step 2: Deploy on Coolify**
+
 Next you cick on deploy and wait for it to deploy the resources. This may take some time. Y
 
 **Stepb3: Deploy the link**
+
 You can click link and click the url there. Do not worry if it shows {"detail":"Not Found"}. Right now you can only access it via api.
 /api/info
 /api/config
@@ -34,6 +37,7 @@ You can click link and click the url there. Do not worry if it shows {"detail":"
  into a browser to test the api and get your server details.
 
 **Step 5: Generate an Image via API**
+
 Send a POST request to /api/generate with a JSON body:
 curl -X POST "http://<your-app-subdomain>.your-coolify-domain/api/generate" \
 -H "Content-Type: application/json" \
